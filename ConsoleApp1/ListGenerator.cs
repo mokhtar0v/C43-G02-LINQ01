@@ -46,7 +46,7 @@ namespace ConsoleApp1
 		public override string ToString()
 			=> $"{CustomerID}, {CustomerName}, {Address}, {City}, {Region}, {PostalCode}, {Country}, {Phone}, {Fax}";
 	}
-	class Order
+	internal class Order
 	{
 
 		public int OrderID { get; set; }
